@@ -1,3 +1,5 @@
+/*Name =Vikrant Singh Choudhary
+* student ID : 991635492
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -22,6 +24,9 @@ public class CardTrick {
         System.out.println("The cards in the magic hand are: ");
         for (int i=0; i<magicHand.length; i++)
         {
+            card LuckyCard = new Card();
+            LuckyCard.setValue(7);
+            
             Card c = new Card();
             c.setValue(1 + (int) Math.floor(Math.random()*13));
             c.setSuit(Card.SUITS[(int)Math.floor(Math.random()*4)]);
