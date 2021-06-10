@@ -24,7 +24,7 @@ public class CardTrick {
         System.out.println("The cards in the magic hand are: ");
         for (int i=0; i<magicHand.length; i++)
         {
-            card LuckyCard = new Card();
+            Card LuckyCard = new Card();
             LuckyCard.setValue(7);
             
             Card c = new Card();
